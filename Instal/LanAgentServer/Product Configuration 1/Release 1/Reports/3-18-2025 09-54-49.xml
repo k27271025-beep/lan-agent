@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files (x86)\InstallShield\2020\Support\0409\buildreport.xsl"?>
+<BuildReport ProductName="LanAgent_Server" ProductVersion="1.0" Built="3-18-2025 09-54-49" Config="Product Configuration 1" Media="Release 1" Uncompressed="0.00 MB">
+  <Features>
+    <Feature Title="##IDS_FEATURE_DISPLAY_NAME1##">LanAgent_Server_Files</Feature>
+  </Features>
+  <Components>
+    <Component x64="32">AllOtherFiles</Component>
+    <Component x64="32" KeyPath="dlllanagent.dll">DLLLanAgent.dll</Component>
+    <Component x64="32" KeyPath="_024_02_11lanagentserver.exe">_024_02_11LanAgentServer.exe</Component>
+    <Component x64="32" KeyPath="help.chm">help.chm</Component>
+  </Components>
+  <Prerequisites>
+    <Prerequisite>Microsoft .NET Framework 4.7.2 Web</Prerequisite>
+  </Prerequisites>
+  <MergeModules />
+  <DynamicLinks />
+  <Files>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]НППК\LanAgent_Server" Component="_024_02_11LanAgentServer.exe" Modified="13.03.2025 13:07:32" Size="97280" Version="1.0.0.0">2024_02-11LanAgentServer.exe</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]НППК\LanAgent_Server" Component="AllOtherFiles" Modified="13.03.2025 13:08:11" Size="1866992" Version="">LanAgentServer.dat</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]НППК\LanAgent_Server" Component="help.chm" Modified="18.03.2025 8:43:44" Size="72181" Version="">help.chm</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]НППК\LanAgent_Server" Component="DLLLanAgent.dll" Modified="11.02.2025 8:57:37" Size="4608" Version="1.0.0.0">DLLLanAgent.dll</File>
+  </Files>
+</BuildReport>
